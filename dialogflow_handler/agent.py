@@ -20,7 +20,6 @@ class Agent:
                                                               query_input=self.query_input,
                                                               timeout=timeout)
             self.update()
-            return self.fulfillment_text
         except DeadlineExceeded:
             return "DeadlineExceeded"
         except InvalidArgument:

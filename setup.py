@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='dialogflow-handler',
-    version='0.1.1',
+    version='0.1.6',
     description='Another Dialogflow API wrapper',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
